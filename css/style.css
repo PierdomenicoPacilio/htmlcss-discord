@@ -305,11 +305,16 @@ footer {
     color: #ffffff;
 }
 
+
+
+/* sezione di sinistra */
+
 #bot-item-1 {
     flex-shrink: 0;
     gap: 20px;
     padding: 20px;
     flex-direction: column;
+    border-bottom: 1px solid #7288da;
 }
 
 #bot-item-1 > h2 {
@@ -334,6 +339,8 @@ footer {
 
 
 
+/* sezione delle liste */
+
 #bot-item-2 {
     background-color: #20b2aa;
     flex-shrink: 0;
@@ -341,24 +348,24 @@ footer {
 
 .bot-box {
     flex-grow: 1;
+    padding: 30px 70px 50px;
+    flex-direction: column;
+    border-bottom: 1px solid #7288da;
 }
 
-.debug-bot-item-1 {
-    height: 600px;
-}
-
-.debug-bot {
-    border: 1px dashed #ffffff;    
+.bot-box > span {
+    font-size: small;
+    color: #7288da;
 }
 
 
-
-
-
-hr {
-    color: #ffffff;
-    border: 1px solid #ffffff;
+.link-list {
+    list-style: none;   
+    line-height: 4; 
 }
+
+
+
 
 
 
