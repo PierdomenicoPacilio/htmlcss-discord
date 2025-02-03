@@ -302,17 +302,40 @@ bot-1
 
 footer {
     background-color: #23272a;
+    color: #ffffff;
 }
 
 #bot-item-1 {
-    background-color: #f08080;
-    flex-grow: 3;
     flex-shrink: 0;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: column;
 }
+
+#bot-item-1 > h2 {
+    color: #7288da;
+}
+
+#lenguage{
+    gap: 5px;
+}
+
+.small {
+    font-size: x-small;
+}
+
+#ita {
+    height: 15px;
+}
+
+#icons {
+    gap: 20px;
+}
+
+
 
 #bot-item-2 {
     background-color: #20b2aa;
-    flex-grow: 7;
     flex-shrink: 0;
 }
 
