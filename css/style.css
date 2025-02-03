@@ -207,19 +207,34 @@ main-items-secondo-livello
 
 
 #main-item-2{
-    background-color: #1e90ff;
-    flex-grow: 3;
+    /* background-color: #1e90ff; */
     flex-shrink: 0;
+    justify-content: right;
 }
 
 #main-item-3{
-    background-color: #ffc0cb;
-    flex-grow: 2;
+    /* background-color: #ffc0cb; */
     flex-shrink: 0;
+    max-width: 280px;
+    padding: 40px 40px 40px 0;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.debug-main-item-2{
-    height: 500px;
+.main-img{
+    width: 560px;
+}
+
+#main-item-3 > h2{
+    font-size: xx-large;
+    padding-bottom: 30px;
+    word-spacing: 5px;
+    line-height: 1.2;
+}
+
+#main-item-3 > p{
+ word-spacing: 2px;
+ line-height: 1.5;
 }
 
 #main-item-4{
