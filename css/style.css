@@ -34,14 +34,13 @@ top-1
 *******/
 
 header{
-    background-image:url(../img/jumbo.png);
-    background-size: cover;
-    padding: 15px 0 5px;
+    background-color: #255ee9;
+    padding: 15px 0 0;
     color: #ffffff;
 }
 
 .top-1{
-    max-width: 80%;
+    max-width: 85%;
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -114,21 +113,64 @@ top-2
 *******/
 
 #top-2{
-    /* background-color: #00008b; */
-    padding: 50px 0;
+    padding: 100px 0;
     margin-top: 15px;
-
+    background-image:url(../img/jumbo.png);
+    background-size: cover;    
 }
 
 .top-item-2{
-    background-color: #ee82ee;
     max-width: 65%;
     margin: 0 auto;
 }
 
-.debug-top-2{
-    /* display: none; */
-     height: 400px;
+
+/* Jumbotron */
+
+#jumbotron {
+    flex-direction: column;
+    align-items: center;
+}
+
+#jumbo-1, #jumbo-2, #jumbo-3{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#jumbo-1{
+    font-size:x-large;
+}
+
+#jumbo-2{
+    padding: 30px 20px;   
+    text-align: center;    
+}
+
+#jumbo-3{
+    gap: 30px;
+    padding: 10px;
+}
+
+
+/* Bottoni */
+
+.button-2{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #23272a;
+    border-color: #23272a;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+a.button-2:link, a.button-2:visited, a.button-2:active {
+    color: #ffffff;
+    text-decoration: none;  
+}
+
+a.button-2:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 
